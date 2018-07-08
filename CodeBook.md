@@ -26,19 +26,19 @@ The above signals were used to estimate 561 variables of the feature vector for 
 
 The obtained dataset was then randomly partitioned into two sets, where 21 of the volunteers was selected for generating the training data and 9 were selected for the test data. The following provides details on the partitioned data sets:
 
-## Training Data
+### Training Data
 
-X_train.txt - contains 7,352 observations of 561 features with respect to 21 volunteers in the training group
-y_train.txt - contains the ID indicator of the volunteer associated with each of the above 7,352 observations
-subject_train.txt - contains the activity indicators associated with each of the above 7,352 observations
+X_train.txt - contains 7,352 observations of 561 features with respect to 21 volunteers in the training group  
+y_train.txt - contains the ID indicator of the volunteer associated with each of the above 7,352 observations  
+subject_train.txt - contains the activity indicators associated with each of the above 7,352 observations  
 
-## Test Data
+### Test Data
 
-X_test.text - contains 2,947 observations of 561 features with respect to 9 volunteers in the test group
-y_train.txt - contains the ID indicator of the volunteer associated with each of the above 2,947 observations
-subject_test.txt - contains the activity indicators associated with each of the above 2,947 observations
+X_test.text - contains 2,947 observations of 561 features with respect to 9 volunteers in the test group  
+y_train.txt - contains the ID indicator of the volunteer associated with each of the above 2,947 observations  
+subject_test.txt - contains the activity indicators associated with each of the above 2,947 observations  
 
-## Activity Variable
+### Activity Variable
 
 activity_labels.txt contains the activity indicators and can be summarized as follows:  
     1 - WALKING   
@@ -48,7 +48,7 @@ activity_labels.txt contains the activity indicators and can be summarized as fo
     5 - STANDING  
     6 - LAYING  
 
-## Features Variable
+### Features Variable
 
 features.txt - contains the variable names pertaining to the 561 elements of each feature vector
 
@@ -56,7 +56,7 @@ Features are normalized and bounded within [-1,1]
 
 features_info.txt - contains addtional information about the features 
 
-## Additional Information
+### Additional Information
 
 For more information about the source data please refer to the README.txt.
 
