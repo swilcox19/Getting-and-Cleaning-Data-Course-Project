@@ -40,13 +40,13 @@ subject_test.txt - contains the activity indicators associated with each of the 
 
 ## Activity Variable
 
-activity_labels.txt contains the activity indicators and can be summarized as follows:
-    1 - WALKING 
-    2 - WALKING_UPSTAIRS
-    3 - WALKING_DOWNSTAIRS
-    4 - SITTING
-    5 - STANDING
-    6 - LAYING
+activity_labels.txt contains the activity indicators and can be summarized as follows:  
+    1 - WALKING   
+    2 - WALKING_UPSTAIRS  
+    3 - WALKING_DOWNSTAIRS  
+    4 - SITTING  
+    5 - STANDING  
+    6 - LAYING  
 
 ## Features Variable
 
@@ -81,24 +81,22 @@ The variables of the tidy data set are as follows:
 
 ### Subject and Activity Variables
 
-Subject : Volunteer ID indicator (integer)                                                      					
+Subject : Volunteer ID indicator (integer)  
 Activity: Activity performed by volunteer (factor with 6 levels "WALKING"", "STANDING", etc. as described above)                                                  		
 
 ### Feature Variables
 
 Feature variables are numeric and expressed as the average of the variable for each volunteer for each activity.
 
-Mean Time Domain Body Acceleration in X, Y and Z directions:
+Mean Time Domain Body Acceleration in X, Y and Z directions:  
+timeBodyAccelerometerMean()X                                					
+timeBodyAccelerometerMean()Y                                					
+timeBodyAccelerometerMean()Z  
 
-timeBodyAccelerometerMean()X                              					
-timeBodyAccelerometerMean()Y                              					
-timeBodyAccelerometerMean()Z
-
-Standard Deviation of the Time Domain Body Acceleration in the X, Y and Z directions:
-
-timeBodyAccelerometerStandardDeviation()X                 					
-timeBodyAccelerometerStandardDeviation()Y                 					
-timeBodyAccelerometerStandardDeviation()Z
+Standard Deviation of the Time Domain Body Acceleration in the X, Y and Z directions:  
+timeBodyAccelerometerStandardDeviation()X                   					
+timeBodyAccelerometerStandardDeviation()Y                   					
+timeBodyAccelerometerStandardDeviation()Z  
 
 Mean Time Domain Gravity Acceleration in the X, Y, and Z directions:
 
