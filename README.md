@@ -30,8 +30,8 @@ The tidy data set "tidyData.txt" was created with the run.analysis.R script usin
 
 The tidy data set can be read using the following R commends:
 
-> tidyData <- read.table(file_path, header = TRUE)  
-> View(tidyData)
+tidyData <- read.table(file_path, header = TRUE)  
+View(tidyData)
 
 ## Source Data
 
