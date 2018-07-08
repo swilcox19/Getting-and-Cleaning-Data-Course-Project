@@ -26,7 +26,12 @@ The project instructions were to create one R script called run_analysis.R that:
 
 ## Tidy Data Set
 
-The tidy data set "tidyData.txt" was created with the run.analysis.R script using R version 3.4.0 on Windows 10 and used the dplyr package. For more details on the run_analysis.R script please refer to the CodeBook.md.  
+The tidy data set "tidyData.txt" was created with the run.analysis.R script using R version 3.4.0 on Windows 10 and used the dplyr package. For more details on the run_analysis.R script please refer to the CodeBook.md.
+
+The tidy data set can be read using the following R commends:
+
+> tidyData <- read.table(file_path, header = TRUE)  
+> View(tidyData)
 
 ## Source Data
 
