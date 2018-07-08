@@ -23,7 +23,7 @@ The raw time domain signals were filtered to remove noise. The acceleration sign
 
 The above signals were used to estimate 561 variables of the feature vector for each pattern. Note X, Y and Z are used to denote 3-axial signals in the X, Y and Z directions.
 
-The obtained dataset was then randomly partitioned into two sets, where 21 of the volunteers was selected for generating the training data and 9 were selected for the test data. The following provides details on the partitioned data sets:
+The obtained dataset was then randomly partitioned into two sets, where 21 of the volunteers was selected for generating the training data and 9 were selected for the test data. The following provides details on the partitioned data sets and related variables:
 
 ### Training Data
 
