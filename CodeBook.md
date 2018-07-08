@@ -93,198 +93,159 @@ Mean Time Domain Body Acceleration in X, Y and Z directions:
 - timeBodyAccelerometerMean()Y                                  					
 - timeBodyAccelerometerMean()Z  
 
-Standard Deviation of the Time Domain Body Acceleration in the X, Y and Z directions:  
-timeBodyAccelerometerStandardDeviation()X                   					
-timeBodyAccelerometerStandardDeviation()Y                   					
-timeBodyAccelerometerStandardDeviation()Z  
+Standard Deviation of the Time Domain Body Acceleration in the X, Y and Z directions:    
+- timeBodyAccelerometerStandardDeviation()X  
+- timeBodyAccelerometerStandardDeviation()Y                     					
+- timeBodyAccelerometerStandardDeviation()Z    
+
+Mean Time Domain Gravity Acceleration in the X, Y, and Z directions:  
+- timeGravityAccelerometerMean()X                             					
+- timeGravityAccelerometerMean()Y                             					
+- timeGravityAccelerometerMean()Z  
+
+Standard Deviation of the Time Domain Gravity Acceleration in the X, Y, and Z directions:  
+- timeGravityAccelerometerStandardDeviation()X                					
+- timeGravityAccelerometerStandardDeviation()Y                					
+- timeGravityAccelerometerStandardDeviation()Z  
+
+Mean Time Domain Body Linear Acceleration Jerk Signal in the X, Y and Z directions:    
+- timeBodyAccelerometerJerkMean()X                            					
+- timeBodyAccelerometerJerkMean()Y                            					
+- timeBodyAccelerometerJerkMean()Z  
+
+Standard Deviation of the Time Domain Linear Acceleration Jerk Signal in the X, Y, and Z directions:  
+- timeBodyAccelerometerJerkStandardDeviation()X               					
+- timeBodyAccelerometerJerkStandardDeviation()Y               					
+- timeBodyAccelerometerJerkStandardDeviation()Z  
+
+Mean Time Domain Body Angular Velocity in the X, Y and Z directions:  
+- timeBodyGyroscopeMean()X                                    					
+- timeBodyGyroscopeMean()Y                                    					
+- timeBodyGyroscopeMean()Z  
+
+Standard Deviation of the Time Domain Body Angular Velocity in the X, Y, and Z directions:  
+- timeBodyGyroscopeStandardDeviation()X                       					
+- timeBodyGyroscopeStandardDeviation()Y                       					
+- timeBodyGyroscopeStandardDeviation()Z  
+
+Mean Time Domain Body Angular Velocity Jerk Signal in the X, Y and Z directions:  
+- timeBodyGyroscopeJerkMean()X                                					
+- timeBodyGyroscopeJerkMean()Y                                					
+- timeBodyGyroscopeJerkMean()Z  
+
+Standard Deviation of the Time Domain Body Angular Velocity Jerk Signal in the X, Y and Z directions:  
+- timeBodyGyroscopeJerkStandardDeviation()X                   					
+- timeBodyGyroscopeJerkStandardDeviation()Y                   					
+- timeBodyGyroscopeJerkStandardDeviation()Z  
 
-Mean Time Domain Gravity Acceleration in the X, Y, and Z directions:
+Mean Time Domain Body Acceleration Magnitude:   
+- timeBodyAccelerometerMagnitudeMean()  
 
-timeGravityAccelerometerMean()X                           					
-timeGravityAccelerometerMean()Y                           					
-timeGravityAccelerometerMean()Z
+Standard Deviation of the Time Domain Body Acceleration Magnitude:  
+- timeBodyAccelerometerMagnitudeStandardDeviation()  
 
-Standard Deviation of the Time Domain Gravity Acceleration in the X, Y, and Z directions:
+Mean Time Domain Gravity Acceleration Magnitude:   
+- timeGravityAccelerometerMagnitudeMean()
 
-timeGravityAccelerometerStandardDeviation()X              					
-timeGravityAccelerometerStandardDeviation()Y              					
-timeGravityAccelerometerStandardDeviation()Z
+Standard Deviation of the Time Domain Gravity Acceleration Magnitude:  
+- timeGravityAccelerometerMagnitudeStandardDeviation()  
 
-Mean Time Domain Body Linear Acceleration Jerk Signal in the X, Y and Z directions:  
+Mean Time Domain Body Linear Acceleration Jerk Signal Magnitude:  
+- timeBodyAccelerometerJerkMagnitudeMean()  
 
-timeBodyAccelerometerJerkMean()X                          					
-timeBodyAccelerometerJerkMean()Y                          					
-timeBodyAccelerometerJerkMean()Z
+Standard Deviation of the Time Domain Body Linear Acceleration Magnitude:  
+- timeBodyAccelerometerJerkMagnitudeStandardDeviation()  
 
-Standard Deviation of the Time Domain Linear Acceleration Jerk Signal in the X, Y, and Z directions:
+Mean Time Domain Body Angular Velocity Magnitude:  
+- timeBodyGyroscopeMagnitudeMean()  
 
-timeBodyAccelerometerJerkStandardDeviation()X             					
-timeBodyAccelerometerJerkStandardDeviation()Y             					
-timeBodyAccelerometerJerkStandardDeviation()Z
+Standard Deviation of the Time Domain Body Angular Velocity Magnitude:  
+- timeBodyGyroscopeMagnitudeStandardDeviation()  
 
-Mean Time Domain Body Angular Velocity in the X, Y and Z directions:
+Mean Time Domain Body Angular Velocity Jerk Signal Magnitude:  
+- timeBodyGyroscopeJerkMagnitudeMean()  
 
-timeBodyGyroscopeMean()X                                  					
-timeBodyGyroscopeMean()Y                                  					
-timeBodyGyroscopeMean()Z
+Standard Deviation of the Time Domain Body Angular Velocity Jerk Signal Magnitude:  
+- timeBodyGyroscopeJerkMagnitudeStandardDeviation()  
 
-Standard Deviation of the Time Domain Body Angular Velocity in the X, Y, and Z directions:
+Mean Frequency Domain Body Acceleration in X, Y and Z directions:  
+- frequencyBodyAccelerometerMean()X                           					
+- frequencyBodyAccelerometerMean()Y                           					
+- frequencyBodyAccelerometerMean()Z  
 
-timeBodyGyroscopeStandardDeviation()X                     					
-timeBodyGyroscopeStandardDeviation()Y                     					
-timeBodyGyroscopeStandardDeviation()Z
+Standard Deviation of the Frequency Domain Body Acceleration in the X, Y and Z directions:  
+- frequencyBodyAccelerometerStandardDeviation()X              					
+- frequencyBodyAccelerometerStandardDeviation()Y              					
+- frequencyBodyAccelerometerStandardDeviation()Z  
 
-Mean Time Domain Body Angular Velocity Jerk Signal in the X, Y and Z directions:
+Mean Frequency Domain Body Acceleration Mean Frequency in the X, Y and Z directions:  
+- frequencyBodyAccelerometerMeanFrequency()X                  					
+- frequencyBodyAccelerometerMeanFrequency()Y                  					
+- frequencyBodyAccelerometerMeanFrequency()Z  
 
-timeBodyGyroscopeJerkMean()X                              					
-timeBodyGyroscopeJerkMean()Y                              					
-timeBodyGyroscopeJerkMean()Z
+Mean Frequency Domain Body Linear Acceleration Jerk Signal in the X, Y and Z directions:  
+- frequencyBodyAccelerometerJerkMean()X                       					
+- frequencyBodyAccelerometerJerkMean()Y                       					
+- frequencyBodyAccelerometerJerkMean()Z  
 
-Standard Deviation of the Time Domain Body Angular Velocity Jerk Signal in the X, Y and Z directions:
+Standard Deviation of the Frequency Domain Body Linear Acceleration Jerk Signal in the X, Y and Z directions:  
+- frequencyBodyAccelerometerJerkStandardDeviation()X          					
+- frequencyBodyAccelerometerJerkStandardDeviation()Y          					
+- frequencyBodyAccelerometerJerkStandardDeviation()Z  
 
-timeBodyGyroscopeJerkStandardDeviation()X                 					
-timeBodyGyroscopeJerkStandardDeviation()Y                 					
-timeBodyGyroscopeJerkStandardDeviation()Z
+Mean Frequency Domain Body Linear Acceleration Jerk Signal Frequency in the X, Y and Z directions:  
+- frequencyBodyAccelerometerJerkMeanFrequency()X              					
+- frequencyBodyAccelerometerJerkMeanFrequency()Y              					
+- frequencyBodyAccelerometerJerkMeanFrequency()Z  
 
-Mean Time Domain Body Acceleration Magnitude: 
+Mean Frequency Domain Body Angular Velocity in the X, Y and Z directions:  
+- frequencyBodyGyroscopeMean()X                               					
+- frequencyBodyGyroscopeMean()Y                               					
+- frequencyBodyGyroscopeMean()Z  
 
-timeBodyAccelerometerMagnitudeMean()
+Standard Deviation of the Frequency Domain Body Angular Velocity in the X, Y and Z directions:  
+- frequencyBodyGyroscopeStandardDeviation()X                  					
+- frequencyBodyGyroscopeStandardDeviation()Y                  					
+- frequencyBodyGyroscopeStandardDeviation()Z  
 
-Standard Deviation of the Time Domain Body Acceleration Magnitude:
+Mean Frequency Domain Body Angular Velocity Frequency in the X, Y and Z directions:  
+- frequencyBodyGyroscopeMeanFrequency()X                      					
+- frequencyBodyGyroscopeMeanFrequency()Y                      					
+- frequencyBodyGyroscopeMeanFrequency()Z  
 
-timeBodyAccelerometerMagnitudeStandardDeviation()
+Mean Frequency Domain Body Acceleration Magnitude:  
+- frequencyBodyAccelerometerMagnitudeMean()  
 
-Mean Time Domain Gravity Acceleration Magnitude: 
+Standard Deviation of the Frequency Domain Body Acceleration Magnitude:  
+- frequencyBodyAccelerometerMagnitudeStandardDeviation()  
 
-timeGravityAccelerometerMagnitudeMean()
+Mean Frequency Domain Body Acceleration Magnitude Frequency:  
+- frequencyBodyAccelerometerMagnitudeMeanFrequency()  
 
-Standard Deviation of the Time Domain Gravity Acceleration Magnitude:
+Mean Frequency Domain Body Linear Acceleration Jerk Signal Magnitude:  
+- frequencyBodyAccelerometerJerkMagnitudeMean()  
 
-timeGravityAccelerometerMagnitudeStandardDeviation()
+Standard Deviation of the Frequency Domain Body Linear Acceleration Jerk Signal Magnitude:  
+- frequencyBodyAccelerometerJerkMagnitudeStandardDeviation()  
 
-Mean Time Domain Body Linear Acceleration Jerk Signal Magnitude:
+Mean Frequency Domain Body Linear Acceleration Jerk Signal Magnitude Frequency:  
+- frequencyBodyAccelerometerJerkMagnitudeMeanFrequency()  
 
-timeBodyAccelerometerJerkMagnitudeMean()
+Mean Frequency Domain Body Angular Velocity Magnitude:  
+- frequencyBodyGyroscopeMagnitudeMean()  
 
-Standard Deviation of the Time Domain Body Linear Acceleration Magnitude:
+Standard Deviation of the Frequency Domain Body Angular Velocity Magnitude:  
+- frequencyBodyGyroscopeMagnitudeStandardDeviation()  
 
-timeBodyAccelerometerJerkMagnitudeStandardDeviation()
+Mean Frequency Domain Body Angular Velocity Magnitude Frequency:  
+- frequencyBodyGyroscopeMagnitudeMeanFrequency()  
 
-Mean Time Domain Body Angular Velocity Magnitude:
+Mean Frequency Domain Body Angular Velocity Jerk Signal Magnitude:  
+- frequencyBodyGyroscopeJerkMagnitudeMean()  
 
-timeBodyGyroscopeMagnitudeMean()
+Standard Deviation of the Frequency Domain Body Angular Velocity Jerk Signal Magnitude:  
+- frequencyBodyGyroscopeJerkMagnitudeStandardDeviation()  
 
-Standard Deviation of the Time Domain Body Angular Velocity Magnitude:
-
-timeBodyGyroscopeMagnitudeStandardDeviation()
-
-Mean Time Domain Body Angular Velocity Jerk Signal Magnitude:
-
-timeBodyGyroscopeJerkMagnitudeMean()
-
-Standard Deviation of the Time Domain Body Angular Velocity Jerk Signal Magnitude:
-
-timeBodyGyroscopeJerkMagnitudeStandardDeviation()
-
-Mean Frequency Domain Body Acceleration in X, Y and Z directions:
-
-frequencyBodyAccelerometerMean()X                         					
-frequencyBodyAccelerometerMean()Y                         					
-frequencyBodyAccelerometerMean()Z
-
-Standard Deviation of the Frequency Domain Body Acceleration in the X, Y and Z directions:
-
-frequencyBodyAccelerometerStandardDeviation()X            					
-frequencyBodyAccelerometerStandardDeviation()Y            					
-frequencyBodyAccelerometerStandardDeviation()Z
-
-Mean Frequency Domain Body Acceleration Mean Frequency in the X, Y and Z directions:
-
-frequencyBodyAccelerometerMeanFrequency()X                					
-frequencyBodyAccelerometerMeanFrequency()Y                					
-frequencyBodyAccelerometerMeanFrequency()Z
-
-Mean Frequency Domain Body Linear Acceleration Jerk Signal in the X, Y and Z directions:
-
-frequencyBodyAccelerometerJerkMean()X                     					
-frequencyBodyAccelerometerJerkMean()Y                     					
-frequencyBodyAccelerometerJerkMean()Z
-
-Standard Deviation of the Frequency Domain Body Linear Acceleration Jerk Signal in the X, Y and Z directions:
-
-frequencyBodyAccelerometerJerkStandardDeviation()X        					
-frequencyBodyAccelerometerJerkStandardDeviation()Y        					
-frequencyBodyAccelerometerJerkStandardDeviation()Z
-
-Mean Frequency Domain Body Linear Acceleration Jerk Signal Frequency in the X, Y and Z directions:
-
-frequencyBodyAccelerometerJerkMeanFrequency()X            					
-frequencyBodyAccelerometerJerkMeanFrequency()Y            					
-frequencyBodyAccelerometerJerkMeanFrequency()Z
-
-Mean Frequency Domain Body Angular Velocity in the X, Y and Z directions:
-
-frequencyBodyGyroscopeMean()X                             					
-frequencyBodyGyroscopeMean()Y                             					
-frequencyBodyGyroscopeMean()Z
-
-Standard Deviation of the Frequency Domain Body Angular Velocity in the X, Y and Z directions:
-
-frequencyBodyGyroscopeStandardDeviation()X                					
-frequencyBodyGyroscopeStandardDeviation()Y                					
-frequencyBodyGyroscopeStandardDeviation()Z
-
-Mean Frequency Domain Body Angular Velocity Frequency in the X, Y and Z directions:
-
-frequencyBodyGyroscopeMeanFrequency()X                    					
-frequencyBodyGyroscopeMeanFrequency()Y                    					
-frequencyBodyGyroscopeMeanFrequency()Z
-
-Mean Frequency Domain Body Acceleration Magnitude:
-
-frequencyBodyAccelerometerMagnitudeMean()
-
-Standard Deviation of the Frequency Domain Body Acceleration Magnitude:
-
-frequencyBodyAccelerometerMagnitudeStandardDeviation()
-
-Mean Frequency Domain Body Acceleration Magnitude Frequency:
-
-frequencyBodyAccelerometerMagnitudeMeanFrequency()
-
-Mean Frequency Domain Body Linear Acceleration Jerk Signal Magnitude:
-
-frequencyBodyAccelerometerJerkMagnitudeMean()
-
-Standard Deviation of the Frequency Domain Body Linear Acceleration Jerk Signal Magnitude:
-
-frequencyBodyAccelerometerJerkMagnitudeStandardDeviation()
-
-Mean Frequency Domain Body Linear Acceleration Jerk Signal Magnitude Frequency:
-
-frequencyBodyAccelerometerJerkMagnitudeMeanFrequency()
-
-Mean Frequency Domain Body Angular Velocity Magnitude:
-
-frequencyBodyGyroscopeMagnitudeMean()
-
-Standard Deviation of the Frequency Domain Body Angular Velocity Magnitude:
-
-frequencyBodyGyroscopeMagnitudeStandardDeviation()
-
-Mean Frequency Domain Body Angular Velocity Magnitude Frequency:
-
-frequencyBodyGyroscopeMagnitudeMeanFrequency()
-
-Mean Frequency Domain Body Angular Velocity Jerk Signal Magnitude:
-
-frequencyBodyGyroscopeJerkMagnitudeMean()
-
-Standard Deviation of the Frequency Domain Body Angular Velocity Jerk Signal Magnitude:
-
-frequencyBodyGyroscopeJerkMagnitudeStandardDeviation()
-
-Mean Frequency Domain Body Angular Velocity Jerk Signal Magnitude Frequency:
-
-frequencyBodyGyroscopeJerkMagnitudeMeanFrequency() 					
+Mean Frequency Domain Body Angular Velocity Jerk Signal Magnitude Frequency:  
+- frequencyBodyGyroscopeJerkMagnitudeMeanFrequency()   					
                                              
