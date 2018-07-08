@@ -64,14 +64,14 @@ For more information about the source data please refer to the README.txt.
 Data processing is completed using the run_analysis.R script, which:   
  - reads the above text files
  - merges the training and test data creating a single data.frame containing 10,299 observations of 561 features
- - merges the 2 activity indicator files creating a single data.frame (dimension 10,299 x 1) 
- - merges the 2 ID indicator files creating a single data.frame (dimension 10,299 x 1)
+ - merges the 2 activity indicator files creating a single data.frame (dimensions: 10,299 x 1) 
+ - merges the 2 ID indicator files creating a single data.frame (dimensions: 10,299 x 1)
  - adds appropriate column names to to each data.frame
- - merges the 3 merged data.frames into a new single data.frame (dimension 10,299 x 563)
- - constructs a smaller data.frame by extracting from the merged data.frame only those columns that referenced mean or standard deviation as required for this a project (dimension 10,299 x 81)
+ - merges the 3 merged data.frames into a new single data.frame (dimensions: 10,299 x 563)
+ - constructs a smaller data.frame by extracting from the merged data.frame only those columns that referenced mean or standard deviation as required for this a project (dimensions: 10,299 x 81)
  - converts the activity indicators to factors with appropriate labels (WALKING, STANDING, etc.)
  - modifies the abbreviated column names to be more descriptive and removes any dashes (modified variable names are summarized in the next section) 
- - creates a second, independent tidy data set with the average of each variable for each activity and each subject (dimension 180 x 81)
+ - creates a second, independent tidy data set with the average of each variable for each activity and each subject (dimensions: 180 x 81)
  - writes the tidy data set to a text file (tidyData.txt)
 
 ## Variables of Tidy Data Set
