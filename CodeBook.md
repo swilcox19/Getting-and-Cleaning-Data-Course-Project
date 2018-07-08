@@ -88,10 +88,10 @@ Activity: Activity performed by volunteer (factor with 6 levels "WALKING"", "STA
 
 Feature variables are numeric and expressed as the average of the variable for each volunteer for each activity.
 
-Mean Time Domain Body Acceleration in X, Y and Z directions:  
-timeBodyAccelerometerMean()X                                					
-timeBodyAccelerometerMean()Y                                					
-timeBodyAccelerometerMean()Z  
+Mean Time Domain Body Acceleration in X, Y and Z directions:    
+- timeBodyAccelerometerMean()X                                  					
+- timeBodyAccelerometerMean()Y                                  					
+- timeBodyAccelerometerMean()Z  
 
 Standard Deviation of the Time Domain Body Acceleration in the X, Y and Z directions:  
 timeBodyAccelerometerStandardDeviation()X                   					
