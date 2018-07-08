@@ -79,12 +79,12 @@ The run_analysis.R script:
 
 The variables of the tidy data set are as follows:
 
-###Subject and Activity Variables
+### Subject and Activity Variables
 
 Subject : Volunteer ID indicator (integer)                                                      					
 Activity: Activity performed by volunteer (factor with 6 levels "WALKING"", "STANDING", etc. as described above)                                                  		
 
-###Feature Variables
+### Feature Variables
 
 Feature variables are numeric and expressed as the average of the variable for each volunteer for each activity.
 
