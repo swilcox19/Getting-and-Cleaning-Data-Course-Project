@@ -47,7 +47,7 @@ activity_labels.txt contains the activity indicators and can be summarized as fo
     5 - STANDING  
     6 - LAYING  
 
-### Features Variable
+### Feature Variables
 
 features.txt - contains the variable names pertaining to the 561 elements of each feature vector
 
