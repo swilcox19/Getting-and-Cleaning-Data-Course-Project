@@ -6,7 +6,7 @@ This repo contains the following files:
 
 README.md - provides an overview of the project  
 CodeBook.md - describes the data, variables, and data processing performed to create a tidy data set  
-run-analysis.R - the R script the reads source data from multiple text files and creates a tidy data set  
+run_analysis.R - the R script the reads source data from multiple text files and creates a tidy data set  
 tidyData.txt - the resulting tidy data set  
 
 ## Project Overview
@@ -26,7 +26,7 @@ The project instructions were to create one R script called run_analysis.R that:
 
 ## Tidy Data Set
 
-The tidy data set "tidyData.txt" was created with the run.analysis.R script using R version 3.4.0 on Windows 10 and used the dplyr package. For more details on the run_analysis.R script please refer to the CodeBook.md.
+The tidy data set "tidyData.txt" was created with the run_analysis.R script using R version 3.4.0 on Windows 10 and used the dplyr package. For more details on the run_analysis.R script please refer to the CodeBook.md.
 
 The tidy data set can be read using the following R commands:
 
