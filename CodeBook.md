@@ -61,7 +61,7 @@ For more information about the source data please refer to the README.txt.
 
 ## Data Processing
 
-The run_analysis.R script:   
+Data processing is completed using the run_analysis.R script, which:   
  - reads the above text files
  - merges the training and test data creating a single data.frame containing 10,299 observations of 561 features
  - merges the 2 activity indicator files creating a single data.frame (dimension 10,299 x 1) 
