@@ -17,12 +17,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The above data was based on sensor signals (accelerometers and gyroscopes) from the Samsung Galaxy S smartphones worn on the waists of 30 volunteers performing 6 different activities (walking, walking upstairs, walking downstairs, sitting, standing and laying).
 
-Data contained in the Inertial Signals folders (raw signal data) were not used in this project.
+Raw signal data contained in the Inertial Signals folders were not used in this project.
 
 The raw time domain signals were filtered to remove noise. The acceleration signal was then separated into body and gravity acceleration signals and filtered. Subsequently, body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. A Fast Fourier Transform (FFT) was applied to some of these signals (frequency domain signals).
 
-The above signals were used to estimate 561 variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+The above signals were used to estimate 561 variables of the feature vector for each pattern. Note X, Y and Z are used to denote 3-axial signals in the X, Y and Z directions.
 
 The obtained dataset was then randomly partitioned into two sets, where 21 of the volunteers was selected for generating the training data and 9 were selected for the test data. The following provides details on the partitioned data sets:
 
