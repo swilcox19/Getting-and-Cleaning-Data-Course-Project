@@ -69,7 +69,7 @@ desiredData$Activity <- factor(desiredData$Activity,levels = activityLabels[,1],
 
 # appropriately label the data set with descriptive variable names
 
-newVariableNames <- Names(desiredData)
+newVariableNames <- names(desiredData)
 newVariableNames <- gsub("tBody", "timeBody", newVariableNames)
 newVariableNames <- gsub("tGravity", "timeGravity", newVariableNames)
 newVariableNames <- gsub("fBody", "frequencyBody", newVariableNames)
@@ -88,5 +88,5 @@ colnames(desiredData) <- newVariableNames
 # create an independent tidy data set with the average of each variable
 # for each activity and each subject
 
-tidyData <- desiredData %>% group_by(Subject,Activity) %>% summarize_each(funs(mean(., na.rm = TRUE)))
+tidyData <- desiredData %>% group_by(Subject,Activity) %>% summarize_at(vars(-Subject,-Activity),funs(mean(., na.rm = TRUE)))
 write.table(tidyData, file = "./UCI HAR Dataset/tidyData.txt", quote = FALSE, row.names = FALSE)
